@@ -10,6 +10,27 @@
             border: 1px dashed palevioletred;
             width: 200px;
         }
+
+        .dummy {
+            height: 150px;
+            width: 200px;
+        }
+
+        #boy {
+            position: relative;
+            top: 75px;
+            z-index: 2;
+        }
+
+        #ring {
+            position: relative;
+            z-index: 1;
+        }
+
+        #water {
+            position: relative;
+            top: -75px;
+        }
     </style>
 </head>
 
@@ -20,9 +41,19 @@
         <h2>I have a higher position</h2>
     </section>
     <section class="swimming">
-        <div><img src="image/boy1.svg" alt=""></div>
-        <div><img src="image/ring2.svg" alt=""></div>
-        <div><img src="image/water3.svg" alt=""></div>
+        <div id="boy"><img src="image/boy1.svg" alt=""></div>
+        <div id="ring"><img src="image/ring2.svg" alt=""></div>
+        <div id="water"><img src="image/water3.svg" alt=""></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+
     </section>
 </body>
 
