@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: blue;
+            background-color: red;
+            margin: 10px;
+            padding: 10px;
+            font-size: 50px;
+            font-weight: 700;
+
+        }
+
+        .mid:focus {
+            color: blue;
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            color: blueviolet;
+        }
+
+        li:nth-child(2n) {
+            color: blue;
+        }
+
+        li:nth-child(2n+1) {
+            color: red;
+        }
+
+        h3::before {
+            content: "Hello ";
+        }
+
+        h3::after {
+            content: "gelo";
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="mid" type="text">
+    <input type="text"><br>
+    <a href="https://github.com/">google a joa</a>
+    <a href="https://brandnew.ee/">never visited</a>
+    <a href="https://github.com/litonp/pseudo-box">pseudo box a joa</a>
+    <br>
+    <h3>middle size header-1</h3>
+    <h3>middle size header-2</h3>
+    <h3>middle size header-3</h3>
+    <h3>middle size header-4</h3>
+    <h3>middle size header-5</h3>
+    <h3>middle size header-6</h3>
+    <ul>
+        <li>Owhab vai</li>
+        <li>Arman</li>
+        <li>Soikat</li>
+        <li>Rupak</li>
+        <li>Shahin</li>
+        <li>Sumon</li>
+        <li>Sumon</li>
+        <li>Sumon</li>
+    </ul>
+</body>
+
+</html>
